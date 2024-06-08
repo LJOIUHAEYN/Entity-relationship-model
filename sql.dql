@@ -1,0 +1,24 @@
+     +--------------+          +----------------+         +-----------+
+     |  Gymnasium   |          |    Session     |         |   Coach   |
+     +--------------+          +----------------+         +-----------+
+     | GymnasiumID  |<-------->| SessionID      |<------->| CoachID   |
+     | Name         |          | Type of Sport |         | Last Name |
+     | Address      |          | Schedule       |         | First Name|
+     | Telephone    |          | Capacity       |         | Age       |
+     +--------------+          +----------------+         | Specialty |
+                                                           +-----------+
+                    |                |                |
+                    |                |                |
+                    |    Hosted at   |   Leads        |   
+                    |                |                |
+                    v                v                v
+     +------------+                +------------+      +------------+
+     |   Member   |                |   Member   |      |   Session  |
+     +------------+                +------------+      +------------+
+     | MemberID   |<-------------->| MemberID   |      | SessionID  |
+     | Last Name  |                | Last Name  |      | Type of...|
+     | First Name |                | First Name |      | Schedule  |
+     | Address    |                | Address    |      | Capacity  |
+     | Date of... |                | Date of... |      +------------+
+     | Gender     |                | Gender     |
+     +------------+                +------------+
